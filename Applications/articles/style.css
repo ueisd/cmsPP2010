@@ -1,0 +1,66 @@
+#calendar {
+	position: absolute;
+	padding: 3px;
+}
+
+table.calendar {
+	position: absolute;
+	width: 100px;
+	font-size: 0.8em;
+	background-color: transparent;
+	float: left;
+	clear: both;
+	font-weight: bold;
+	border: #333 1px solid;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+tr.calendar {
+	background-color: transparent;
+	width: auto;
+}
+
+tr.jour {
+	background-color: #fff;
+	width: auto;
+	font-weight: bold;
+}
+
+tr.jour td:hover {
+	background: transparent;
+}
+
+th {
+	text-align: center;
+}
+
+td.morte:hover {
+	background-color: #fff;
+}
+
+td:hover {
+	background-color: #ccc;
+}
+
+.jour {
+	font-weight: bold;
+	color: #006;
+}
+
+td {
+	text-align: center;
+}
+
+.cleaner {
+	margin: 0px;
+	padding: 0px;
+}
+
+.entete_cal {
+	background-color: #ccc;
+}
+
+
+.bold {
+	font-size: medium;
+}

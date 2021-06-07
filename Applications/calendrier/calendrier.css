@@ -1,0 +1,230 @@
+body
+{
+margin:0px;
+padding:0px;
+}
+#imagedefond
+{
+width:100%;
+position:fixed;
+}
+#contenu
+{
+position:absolute;
+left:0px;
+top:31px;
+z-index:1;
+}
+#contenu2
+{
+background-color:#FC6;
+z-index:1;
+}
+#en_tete
+{
+	height:66px; 
+	overflow:hidden;
+	position:fixed;
+	top:0px;
+	left:0px; 
+	width:100%;
+	z-index:3; 
+	background-image:url("photo/entete.JPG");
+	background-attachment:fixed;  
+	background-repeat:no-repeat;
+}
+textarea
+{
+	font-size:15px;
+	color:black;
+}
+textarea:hover
+{
+	background-color:blue;
+	border-style:none;
+}
+textarea:focus
+{
+	background-color:green; 
+}
+#aucune_entre
+{
+	position:absolute;
+	top:150px;
+	left:100px;
+	font-size:30px;
+	color:red; 
+	z-index:3; 
+}
+
+#non_enregistre
+{
+	position:absolute;
+	top:150px;
+	left:100px;
+	font-size:30px;
+	color:red; 
+	z-index:3; 
+}
+
+
+
+#affichertable
+{
+position: relative;
+border-collapse:collapse;
+color:black;
+empty-cells:show;
+width:1650px;
+top:0px;
+z-index:1;
+}
+#calendrier_afficher
+{
+
+
+position:absolute; 
+left:0px;  	
+top:144px;
+
+width:100%;
+height:900px;
+
+z-index:1;
+}
+
+
+#affichertable td   
+{
+	border:1px solid black;
+	width:230px;
+	overflow:hidden;
+	font-size:16px;
+}
+#affichertable td:hover   
+{
+	background-color:white; 
+}
+#affichertable td:active      
+{
+	color:white;
+	background-color:red; 
+}
+
+.aff_jour
+{
+	font-size:20px;
+}
+.aff_num
+{
+	font-size:20px;
+}
+.textetd 
+{
+	text-align:left;
+	vertical-align:top;
+}
+#moisselectionne
+{	
+	position:absolute;
+	top:25px;
+	left:35%;  
+	font-size:30px;
+	
+	z-index:1; 
+}
+#tdmois
+{
+	width:130px;
+	text-align:right;
+}
+#tdannee
+{
+	width:70px;
+}
+.fleche_suivant 
+{
+	width:35px;
+}
+#moisselectionne img
+{
+	border-style:none;
+	position:relative;
+	top:4px; 
+}
+
+#menu_formulaire
+{
+	position:absolute;
+	top:30px;
+	left:3px; 
+	height:20px;
+	z-index:2; 
+}
+#formulaire_nouveau1
+{
+	position:absolute;
+	top:135px;
+	left:10px; 
+	height:20px; 
+	z-index:2; 
+}
+#table_nouveau1
+{
+position: relative;
+top:0px;
+z-index:1;
+font-size:20px; 
+}
+
+#table_nouveau2
+{
+position:absolute; 
+left:0px;  	
+top:144px;
+
+
+z-index:1;
+}
+#table_modifier1
+{
+position: relative;
+top:0px;
+z-index:1;
+font-size:20px; 
+}
+
+#table_modifier2
+{
+position:absolute; 
+left:0px;  	
+top:144px;
+z-index:1;
+}
+
+
+
+.textetd
+{
+	height:150px;
+}
+.aff_texte a
+{
+	menu_article_titre1.jpg
+	margin:4px;
+	padding:2px;
+	
+	text-decoration:none;
+	color:black;
+	padding-left:7px;
+	background-image:url("image/Frame_du_CMS/menu_article_titre2.jpg");
+	background-repeat:repeat;
+	background-color:#90a8cd;
+}
+.aff_texte a:hover
+{
+	cursor:pointer;
+	background-image:url("image/Frame_du_CMS/menu_article_titre1.jpg");
+	background-repeat:repeat;
+	background-color:#90a8cd;
+}
