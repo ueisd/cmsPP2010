@@ -1,6 +1,6 @@
 <?php
-$type_hote_base_de_donnee = 'localhost';
-$Utilisateur_base_de_donnee = 'mpce2089_famille';
-$Code_base_de_donnee = '|:~nVHEQrwgs';
-$Nom_base_de_donnee = 'mpce2089_petitpeuple';
+$type_hote_base_de_donnee = 'url de la base de donnée';
+$Utilisateur_base_de_donnee = 'nom d\'utilisateur';
+$Code_base_de_donnee = 'code database';
+$Nom_base_de_donnee = 'non de la bd';
 ?>

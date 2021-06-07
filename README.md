@@ -14,10 +14,15 @@ CMS incluant un page builder
  
 
 ## Prérequis
-Serveur php et base de données sql
+Serveur php (vieille version afin d'utiliser mysql_connect) et base de données sql
 
+## Note
+Ce projet a été réalisé avant l'entrée à l'université et avant 
+l'apprentissages de plusieurs notions élémentaires en programmation web.
 
 ## Installation
+
+Mettre à jour les informations contenues dans noyau/configuration/base_de_donnee.php
 
 ## License 
 
